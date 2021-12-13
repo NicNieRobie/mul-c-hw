@@ -1,0 +1,1 @@
+/usr/bin/cc -pthread -g CMakeFiles/mul_c_hw.dir/main.c.o CMakeFiles/mul_c_hw.dir/talker.c.o CMakeFiles/mul_c_hw.dir/container.c.o CMakeFiles/mul_c_hw.dir/name_generation.c.o -o mul_c_hw 

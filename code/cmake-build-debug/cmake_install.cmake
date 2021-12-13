@@ -1,4 +1,4 @@
-# Install script for directory: /home/vladislav/CLionProjects/mul-c-hw/code
+# Install script for directory: /home/vladislav/Desktop/mul-c-hw/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vladislav/CLionProjects/mul-c-hw/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vladislav/Desktop/mul-c-hw/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

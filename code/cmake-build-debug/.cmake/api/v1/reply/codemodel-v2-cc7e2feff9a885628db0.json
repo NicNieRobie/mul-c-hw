@@ -6,10 +6,9 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.21"
+						"string" : "3.20"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mul_c_hw::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mul_c_hw-Debug-e647d55af5ebf9f08c1d.json",
+					"jsonFile" : "target-mul_c_hw-Debug-e61e9b7a255e7f9947a5.json",
 					"name" : "mul_c_hw",
 					"projectIndex" : 0
 				}
@@ -49,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/vladislav/CLionProjects/mul-c-hw/code/cmake-build-debug",
-		"source" : "/home/vladislav/CLionProjects/mul-c-hw/code"
+		"build" : "/home/vladislav/Desktop/mul-c-hw/code/cmake-build-debug",
+		"source" : "/home/vladislav/Desktop/mul-c-hw/code"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 2
 	}
 }
