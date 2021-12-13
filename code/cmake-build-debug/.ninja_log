@@ -1,0 +1,4 @@
+# ninja log v5
+48	72	1639323882169724527	mul_c_hw	8688aa59251a6aae
+0	186	1639316734452345400	CMakeFiles/mul_c_hw.dir/main.c.o	d2c3a36e8467a601
+1	47	1639323882145724787	CMakeFiles/mul_c_hw.dir/talker.c.o	1d2efea5472aa80f

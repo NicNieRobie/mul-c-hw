@@ -1,0 +1,3 @@
+/home/vladislav/CLionProjects/mul-c-hw/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vladislav/CLionProjects/mul-c-hw/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vladislav/CLionProjects/mul-c-hw/code/cmake-build-debug/CMakeFiles/mul_c_hw.dir
