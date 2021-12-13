@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <time.h>
 #include <stdbool.h>
+#include <pthread.h>
 
 #include "talker.h"
 

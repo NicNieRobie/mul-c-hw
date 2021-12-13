@@ -11,6 +11,8 @@ stdlib.h
 -
 stdio.h
 -
+pthread.h
+-
 container.h
 /home/vladislav/Desktop/mul-c-hw/code/container.h
 name_generation.h
@@ -19,14 +21,6 @@ name_generation.h
 /home/vladislav/Desktop/mul-c-hw/code/container.h
 talker.h
 /home/vladislav/Desktop/mul-c-hw/code/talker.h
-
-/home/vladislav/Desktop/mul-c-hw/code/main.c
-stdio.h
--
-stdlib.h
--
-container.h
-/home/vladislav/Desktop/mul-c-hw/code/container.h
 
 /home/vladislav/Desktop/mul-c-hw/code/name_generation.h
 
@@ -40,6 +34,8 @@ unistd.h
 time.h
 -
 stdbool.h
+-
+pthread.h
 -
 talker.h
 /home/vladislav/Desktop/mul-c-hw/code/talker.h
