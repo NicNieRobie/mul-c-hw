@@ -12,7 +12,7 @@
 void ArgNumError() {
     fprintf(stderr, "Incorrect number of arguments in the command line!\n"
                     "  Expected:\n"
-                    "     processname talker_count(int) max_call_duration run_duration\n");
+                    "     processname talker_count(int) max_call_duration(int) run_duration(int)\n");
 }
 
 //-------------------------------------------------------------------------
@@ -39,6 +39,9 @@ void RunDurationError(const int run_duration) {
 //-------------------------------------------------------------------------
 /// Program entry point.
 int main(int argc, char *argv[]) {
+    time_t start;
+    time(&start);
+
     // Checking if the argument count is correct.
     if (argc != 4) {
         ArgNumError();
@@ -90,6 +93,11 @@ int main(int argc, char *argv[]) {
     printf("\n---------------------------------------------------------\n");
     printf("Running the simulation...\n\n");
     Run(&container, max_call_duration, run_duration);
+
+    // Printing runtime duration.
+    time_t end;
+    time(&end);
+    printf("\nRuntime duration: %.6f seconds", difftime(end, start));
 
     return 0;
 }
